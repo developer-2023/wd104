@@ -52,3 +52,52 @@ body {
     align-items: center;
     font-size: 1.2rem;
 }
+
+.slider-box {
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+
+.slider-half-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100;
+    font-family: cursive, Geneva;
+    padding: 20px;
+}
+
+.slider-half-item .button {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.order-button {
+    color: #7fd7ff;
+    border: 2px solid #7fd7ff;
+}
+
+.book-button {
+    color: #ffd77f;
+    border: 2px solid #ffd77f;
+    background-color: #936c02;
+}
+
+.order-button:hover, .book-button:hover {
+    background-color: #333;
+}
+
+.pizza-img {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+}
