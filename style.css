@@ -101,3 +101,72 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+.advantages-box {
+    margin-top: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.advantages-box div {
+    flex: 1 0 30%;
+}
+
+.column-advantage {
+    position: relative;
+    height: 160px;
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center center ;
+}
+
+.best-ingredients {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg");
+}
+
+.original-recipe {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg");
+}
+
+.fast-delivery {
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+}
+
+.bottom-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;    
+}
+
+.kitchen-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+    gap: 20px;
+    border: 1px solid white;
+}
+
+.menu-one-fourth {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.menu-one-fourth img {
+    width: 100%;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: black;
+    font-family: cookie, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
